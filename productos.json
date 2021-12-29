@@ -1,0 +1,82 @@
+[{
+        "id": 1,
+        "fiesta": "halloween",
+        "categoria": "iluminacion",
+        "nombre": "Neón Fantasma",
+        "texto": "Cartel luminoso 50 x 50 cm.",
+        "imagen": "img/neon_fantasma.jpg",
+        "precio": 2500
+    },
+    {
+        "id": 2,
+        "fiesta": "halloween",
+        "categoria": "decoracion",
+        "nombre": "Calabaza",
+        "texto": "Adorno cera 35 x 35 cm.",
+        "imagen": "img/decoracion_calabaza.jpg",
+        "precio": 800
+    },
+    {
+        "id": 3,
+        "fiesta": "halloween",
+        "categoria": "disfraces",
+        "nombre": "Disfraz Esqueleto",
+        "texto": "Tela algodón. Talles S, M, L, XL.",
+        "imagen": "img/disfraz_esqueleto.jpg",
+        "precio": 600
+    },
+    {
+        "id": 4,
+        "fiesta": "navidad",
+        "categoria": "iluminacion",
+        "nombre": "Luces Navidad",
+        "texto": "Tira led x 10 m.",
+        "imagen": "img/luces_navidad.jpg",
+        "precio": 700
+    },
+    {
+        "id": 5,
+        "fiesta": "navidad",
+        "categoria": "decoracion",
+        "nombre": "Árbol Navidad",
+        "texto": "Árbol bl/verde x 1.5 m. de alto.",
+        "imagen": "img/arbol_navidad.jpg",
+        "precio": 4200
+    },
+    {
+        "id": 6,
+        "fiesta": "navidad",
+        "categoria": "disfraces",
+        "nombre": "Disfraz Papá Noel",
+        "texto": "Tela lino. Talles S, M, L, XL.",
+        "imagen": "img/disfraz_papaNoel.jpg",
+        "precio": 650
+    },
+    {
+        "id": 7,
+        "fiesta": "festejo",
+        "categoria": "iluminacion",
+        "nombre": "Decorador Luminoso",
+        "texto": "Cartel luminoso 50 x 50 cm.",
+        "imagen": "img/neon_cerdito.jpg",
+        "precio": 2400
+    },
+    {
+        "id": 8,
+        "fiesta": "festejo",
+        "categoria": "decoracion",
+        "nombre": "Globo Metalizado",
+        "texto": "Formas y colores varios.",
+        "imagen": "img/globo_celebracion.jpg",
+        "precio": 450
+    },
+    {
+        "id": 9,
+        "fiesta": "festejo",
+        "categoria": "disfraces",
+        "nombre": "Disfraz Hada",
+        "texto": "Tela organza. Talles S, M, L.",
+        "imagen": "img/disfraz_hada.jpg",
+        "precio": 950
+    }
+]

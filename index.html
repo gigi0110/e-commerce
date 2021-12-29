@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Fiesta</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/api.js" defer></script>
+    <script src="js/productos.js" defer></script>
+    <script src="js/carrito.js" defer></script>
+    <script src="js/animacion.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img id="logo" src="img/logoTF.svg" width="150" height="150" class="d-inline-block align-top" alt="fotoLogo">
+        </a>
+
+        <!-- API -->
+        <div>
+            <h5 class=titulo_ppal>
+                <small class="text-muted">Buscá los días festivos ingresando el código de tu país</small>
+            </h5>
+            <input type="text" id="miIngreso" />
+            <div class="rowApi"></div>
+            <button onclick="funcionQueLlamaALaApi()" class="btn btn-primary">BUSCAR</button>
+        </div>
+    </nav>
+
+    <!-- Buscador filtros -->
+    <h4 class=titulo_ppal--productos>
+        Filtrá productos por nombre / descripción / categoría / evento
+        <div class="busqueda">
+        </div>
+    </h4>
+
+    <!-- Tarjetas -->
+    <div class="container">
+        <div class="row">
+        </div>
+
+        <!-- Carro -->
+        <button onclick="vaciarCarro()" type="button" class="btn btn-secondary btn-vaciar">vaciar carro</button>
+        <span class="carro" style="margin-left:1rem;">🛒</span>
+        <div id="div-carrito" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <p class="lead"></p>
+            </div>
+        </div>
+        <div id="div-carrito2">
+            <div class="container">
+                <p class="lead"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid navbar navbar-light bg-light--footer">
+
+        <div class="col footer__produced">
+            <a class="navbar-brand" href="#">
+                <img id="logo_footer" src="img/logoTF.svg" width="50" height="50" class="d-inline-block align-top" alt="fotoLogo">
+                <h5 class="footer__produced--texto d-inline-block">Giselle Aranzana</h5>
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
